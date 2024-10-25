@@ -87,6 +87,33 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.btn-oste {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 6px 30px;
+  border-radius: 6px;
+}
+
+.btn-oste:hover {
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+}
+
+.btn-oste-outline {
+  background-color: transparent;
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+  padding: 6px 30px;
+  border-radius: 6px;
+}
+
+.btn-oste-outline:hover {
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+
+}
+
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -853,7 +880,7 @@ section,
   width: 100%;
   min-height: 70vh;
   position: relative;
-  padding: 180px 0 40px 0;
+  padding: 70px 0 40px 0;
   display: flex;
   align-items: center;
   overflow: hidden;

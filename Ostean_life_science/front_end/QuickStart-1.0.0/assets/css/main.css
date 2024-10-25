@@ -253,6 +253,17 @@ h6 {
   padding: 0;
 }
 
+.img-hover-zoom {
+  overflow: hidden; /* Ensures the image doesn’t overflow out of the div */
+}
+
+.img-hover-zoom img {
+  transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.1); /* Scales the image to 110% on hover */
+}
 
 /* PHP Email Form Messages
 ------------------------------*/

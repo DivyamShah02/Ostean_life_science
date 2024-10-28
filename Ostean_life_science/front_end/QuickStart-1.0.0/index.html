@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Osteon Science Life Bootstrap Template</title>
+  <title>Osteon Science Life</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -45,9 +45,9 @@
         <ul>
           <li><a href="index.html#hero" class="active">Home</a></li>
           <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#features">Features</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="index.html#features">Products</a></li>
+          <li><a href="index.html#services">Blogs</a></li>
+          <!-- <li><a href="index.html#pricing">Pricing</a></li> -->
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -64,6 +64,46 @@
               <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
             </ul>
+          </li>
+          <li class="nav-item dropdown dropdown-mega position-static">
+            <a class="nav-link dropdown-toggle show" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="true" id="megamenu">Megamenu</a>
+            <div class="dropdown-menu shadow show" data-bs-popper="static">
+              <div class="mega-content px-4">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                      <h5>Pages</h5>
+                      <div class="list-group">
+                        <a class="list-group-item" href="#">Accomodations</a>
+                        <a class="list-group-item" href="#">Terms &amp; Conditions</a>
+                        <a class="list-group-item" href="#">Privacy</a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                      <h5>Card</h5>
+                      <div class="card">
+                  <img src="https://via.placeholder.com/320x180" class="img-fluid" alt="image">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                      <h5>Lot of Pages</h5>
+                      <p>Lorem ipsum dolo sit achmet muhamed borlan de irtka.
+                    </p></div>
+                    <div class="col-12 col-sm-12 col-md-3 py-4">
+                      <h5>Damn, so many</h5>
+                      <div class="list-group">
+                        <a class="list-group-item" href="#">Accomodations</a>
+                        <a class="list-group-item" href="#">Terms &amp; Conditions</a>
+                        <a class="list-group-item" href="#">Privacy</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </li>
           <li><a href="index.html#contact"><span class="btn-oste" style="border-radius: 50px;">Contact Us</span></a></li>
         </ul>
@@ -183,7 +223,7 @@
               <h2 class="display-5 fw-bold text-oste">About Us</h2>
               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris .</p>
               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-              <p class="lead mb-4">It is a Fully Automated plant having an End-To-End Process completely In-house right from the stage of Preform manufacturing, blowing bottles, filling & packaging all done under one single roof to ensure quality in the product.</p>
+              <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris .minim veniam, quis nostrud exercitation ullamco laboris.</p>
                         <div class="row gx-5 py-2">
                             <div class="col-sm-6 mb-2">
                                 <p class="fw-bold mb-2"><i class="fa fa-check text-oste me-3"></i>Perfect Planning</p>
@@ -992,7 +1032,7 @@
 
 
     <!-- Clients Section -->
-    <section id="clients" class="clients section">
+    <section id="clients" class="clients section" style="display: none;">
 
       <div class="container" data-aos="fade-up">
 
@@ -1034,7 +1074,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Features</h2>
+        <h2>News & Events</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
@@ -1808,6 +1848,9 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    document.getElementById('megamenu').click();
+  </script>
 </body>
 
 </html>
